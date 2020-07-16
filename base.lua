@@ -426,8 +426,7 @@ AddEventHandler("playerConnecting",function(name,setMessage, deferrals)
     vRP.getUserIdByIdentifiers(ids, function(user_id)
 	Wait(1250)
       if user_id ~= nil then -- check user validity 
-    --local locked = "https://cdn.discordapp.com/attachments/686012801365311548/688706426079543511/login2.png"
-        local locked = "https://cdn.discordapp.com/attachments/686012801365311548/688705162533011496/Login.png"
+        local locked = "https://cdn.discordapp.com/attachments/686012801365311548/688706426079543511/login2.png"
 				local unlocked = "https://cdn.discordapp.com/attachments/686012801365311548/688705162533011496/Login.png"
 				local KazImage = {"", "", ""}
 				vRP.getUserNames(user_id, function(charnames)
